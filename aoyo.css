@@ -25,13 +25,28 @@
   color: #111;
 }
 
-.sol {
-  background: deeppink;
+.luv {
+  background: violet;
   color: #111;
 }
 
+.soar {
+  background: blueviolet;
+  color: mistyrose;
+}
+
+.oslo {
+  background: #0be;
+  color: #111;
+}
+
+.aoyo {
+  background: mediumturquoise;
+  color: indigo;
+}
+
 .jugo {
-  background: hotpink;
+  background: mediumpurple;
   color: #111;
 }
 
@@ -48,6 +63,14 @@ body {
   margin: 2rem auto;
 }
 
+a {
+  display: table;
+  border-color: transparent;
+  border-radius: 100%;
+  border-style: double;
+  border-width: 1ex;
+}
+
 figure {
   display: flex;
   flex-flow: column;
@@ -57,17 +80,23 @@ figure {
 }
 
 figure > * {
-  border-color: transparent;
-  border-radius: 100%;
-  border-style: double;
-  border-width: 1ex;
+  display: initial;
+  margin: auto;
   padding: 0;
+}
+
+.left { margin-left: 1em }
+.rite { margin-right: 1em }
+
+h1 {
+  align-self: center;
+  border-radius: 100%;
 }
 
 footer {
   margin: 2rem;
 }
 
-footer > a {
-  display: table;
+samp {
+  font-family: fantasy;
 }
